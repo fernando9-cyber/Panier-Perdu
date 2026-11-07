@@ -1,5 +1,5 @@
 const LIEN = "https://buy.stripe.com/test_3cIeV67Gud7Pby15Eo2oE00";
-const EMAIL = "TON-EMAIL@exemple.fr";
+const EMAIL = "fernando.majokko9@gmail.com";
 
 const css = `
 :root{--creme:#FAF6EE;--encre:#1B1B18;--terre:#C2410C;--sapin:#14532D;--gris:#6B665C;--filet:#E4DCCB}
