@@ -9,7 +9,7 @@ export default function Home() {
         engagement.
       </p>
       <a
-        href="#"
+        href="https://buy.stripe.com/test_3cIeV67Gud7Pby15Eo2oE00"
         style={{
           display: "block",
           marginTop: 24,
@@ -22,7 +22,7 @@ export default function Home() {
           borderRadius: 8,
         }}
       >
-        Commencer gratuitement
+        Je commence : 39 €/mois, sans engagement
       </a>
     </main>
   );
