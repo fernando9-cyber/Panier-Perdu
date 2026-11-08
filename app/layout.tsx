@@ -18,14 +18,14 @@ export const viewport: Viewport = {
 };
 
 const description =
-  "Deux relances écrites, envoyées toutes seules, pour récupérer les paniers que tes clients abandonnent. 39 € par mois, sans engagement.";
+  "Deux relances écrites, envoyées toutes seules, pour récupérer les paniers que tes clients abandonnent. À partir de 29 € par mois, sans engagement.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://panier-perdu-neon-alpha.vercel.app"),
+  metadataBase: new URL("https://panier-perdu-fr.vercel.app"),
   title: "Panier Perdu — Récupère les paniers que tes clients abandonnent",
   description,
   openGraph: {
-    title: "Récupère les paniers que tes clients abandonnent",
+    title: "62 paniers abandonnés le mois dernier. Tu en as relancé combien ?",
     description,
     siteName: "Panier Perdu",
     locale: "fr_FR",
