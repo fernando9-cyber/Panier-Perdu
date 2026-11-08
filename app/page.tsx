@@ -45,10 +45,10 @@ export default function Home() {
       <main className="w">
         <div className="hero">
           <div className="marque">Panier Perdu</div>
-          <h1>Récupère les paniers que tes clients abandonnent.</h1>
+          <h1>62 paniers abandonnés le mois dernier. Tu en as relancé combien ?</h1>
           <p style={{ marginTop: 16 }}>
-            Deux relances écrites, envoyées toutes seules. 39 € par mois, sans
-            engagement.
+            Panier Perdu relance tes paniers à ta place : deux e-mails écrits,
+            envoyés tout seuls. 39 € par mois, sans engagement.
           </p>
           <a className="btn" href={LIEN}>
             Je commence : 39 €/mois
