@@ -1,5 +1,5 @@
 const LIEN = "https://buy.stripe.com/test_3cIeV67Gud7Pby15Eo2oE00";
-const EMAIL = equipe.panierperdu@gmail.com
+const EMAIL = "equipe.panierperdu@gmail.com";
 
 const css = `
 :root{--creme:#FAF6EE;--encre:#1B1B18;--terre:#C2410C;--sapin:#14532D;--gris:#6B665C;--filet:#E4DCCB}
@@ -12,12 +12,13 @@ h1{font-size:38px;letter-spacing:-0.5px}
 h2{font-size:28px;margin-bottom:16px}
 p{margin:0 0 14px}
 section{padding:40px 0;border-top:1px solid var(--filet)}
-.hero{padding:36px 0 40px;border:0}
+.hero{padding:36px 0 32px;border:0}
 .marque{font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;color:var(--terre);margin-bottom:20px}
 .btn{display:block;width:100%;min-height:56px;padding:16px 20px;background:var(--terre);color:#fff;text-align:center;font-weight:700;font-size:18px;text-decoration:none;border-radius:10px}
 .note{font-size:15px;color:var(--gris);margin-top:10px;text-align:center}
+.video{padding:0 0 40px}
+.video video{display:block;width:100%;max-width:300px;aspect-ratio:9/16;margin:0 auto;border-radius:12px;background:#0b1a10}
 .chiffre{background:#fff;border:1px solid var(--filet);border-radius:12px;padding:20px;margin:20px 0}
-.chiffre b{font-family:var(--font-titre),Georgia,serif;font-size:34px;color:var(--terre);display:block;line-height:1.1}
 .ligne{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--filet);font-size:17px}
 .ligne:last-child{border:0}
 .ligne span:last-child{font-weight:700;white-space:nowrap}
@@ -53,6 +54,18 @@ export default function Home() {
             Je commence : 39 €/mois
           </a>
           <p className="note">Remboursé sous 14 jours si ça ne te convient pas.</p>
+        </div>
+
+        <div className="video">
+          <video
+            src="/trendsaas-panier.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            aria-label="62 paniers abandonnés le mois dernier. Tu en as relancé combien ?"
+          />
         </div>
 
         <section>
